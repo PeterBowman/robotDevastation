@@ -106,7 +106,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: 'DORjZTWdhauq/l3s+pQj0ywjtkKxb00YNy9Tj3RH5+4I8/aRF2u6nFP61tnLUEEzz6GcEDp/lyIOtbuOI+hKO2M4Nq2stI++8FNvPjA8sdmNGXm3w2yIQFY+wFwZyLcn9y3l/7I8FeiQnfFk47/vHfy5DrdsqOr3Z6Ub7xINpKM='
+    secure: 'AxW68pqimKw0T2EQbzhnBgkN711tQ0QvxgdGUSwpOh/U609mzATuZ+C6tzjrhv5pfiuB7pQyKidmq2OrBwxt053ubZTAqecf64F0j6JlggwPbeVOmzzGZJfR3DO9nPvkX4YDnxRCniMBkWgSWh5rT6kD4tlBkXGwXEjt9dDsw0fvDyWWCVCmdUcl22wybaXHXEifBQHNL74jU9I7aefCHJpMOBoYc/x9OPM4+jaPnSFSM8LZIIl2SKWNCes1+MIhYarIuqK7gtXK/PXP20Y0pmIkjeCHf8gaw+DZ28utfbVRIDpYk1dlCPKfk3T9XDG1x/XMilFubZHdLTkOxBPiXQVw3aZSNX2zyelmNLjwNXfF+y2SP4PBmfQEPfs6Lb2QRC5jPT0uS9yMVwI1715XA+JNwfv/RMg2stCftWXJ9c58hCLIN4XGk6GqwX/hcV9vhpSVm2bjwrW09EBZp09AVuSrPWkD9GYPVKvSG53I75r/FjuPrGlBsM6IzgqMaivPCCSQ5pWWncGR/9I7AoOSsIKL/PIpSqvRJ2NfAJ/378UHlqNYNJtURvaBRxDhZrU8ic0tATKNPfAuUHCCbxbZyJfpBcN+Nmn4r4xMPG575TMvBlbf/l7sR359gaj3lHTf0Gaak+gV/dqsC95HXvWvOz7Trn7pEAl8z9yqhieqZrA='
   file_glob: true  
   file:
   - '*.tar.gz'

@@ -194,6 +194,6 @@ deploy:
   description: 'Put a description here.'
   provider: GitHub
   auth_token:
-    secure: '1MhIS1JCjeWkXo60v14wxONNDvSSEOJK95HEzkEXCA6B1eJx1sle/N5aEwlJv3lD'
+    secure: 'H4Vq83OZ6RI+JofgfcNDP7tCGRWfDgyQxxZYZryXjOl/Xhe6BRNyw6soFizAX/kH'
   on:
     appveyor_repo_tag: true
