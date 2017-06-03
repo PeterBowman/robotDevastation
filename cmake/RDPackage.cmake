@@ -1,7 +1,7 @@
 # Set CPack variables.
 
 # Miscellanea.
-set(CPACK_PACKAGE_NAME "Robot Devastation")
+set(CPACK_PACKAGE_NAME "RobotDevastation")
 set(CPACK_PACKAGE_VENDOR "Universidad Carlos III de Madrid")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Robot Devastation software for PC")
 set(CPACK_PACKAGE_CONTACT "Asociación de Robótica UC3M (ASROB)")
