@@ -74,6 +74,7 @@ install:
       mkdir -p "yarp-$YARP_VER/build" && cd "$_"
       cmake .. -DCMAKE_INSTALL_PREFIX:PATH="$YARP_CACHE_DIR" $YARP_CMAKE_OPTIONS
       sudo make -j2 install
+      mkdir -p "yarp_$YARP_VER/usr/local" && cp -r "$YARP_CACHE_DIR"/* "$_"
       echo "$YARP_VER" > "$YARP_CACHE_DIR/.version"
     else
       echo "YARP directory found in cache (version $(cat "$YARP_CACHE_DIR/.version"))"
